@@ -1,0 +1,34 @@
+X
+# Ignore virtual environment
+patch_venv/
+
+# Ignore patchcore-inspection directory
+patchcore-inspection/
+
+# Ignore system files
+.DS_Store
+
+# Ignore environment and config files
+*.bash_profile
+*.bashrc
+
+# Ignore files in the home directory
+~/.anaconda/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore the virtual environment
+patch_venv/
+
+data/
+
+patchcore-inspection/
+output/
+# Ignore any other large or temporary files
+*.log
+*.bak
+data/
+
+output/
