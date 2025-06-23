@@ -12,6 +12,8 @@ patchcore-inspection/
 *.bash_profile
 *.bashrc
 
+mvtec_anomaly_detection/
+
 # Ignore files in the home directory
 ~/.anaconda/
 
