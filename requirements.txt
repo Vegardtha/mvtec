@@ -1,0 +1,64 @@
+# MVTec Anomaly Detection Project Requirements
+# Compatible with Python 3.8+
+
+# Core Scientific Computing
+numpy>=1.21.0,<2.0.0
+scipy>=1.7.1
+matplotlib>=3.5.0
+pillow>=8.4.0
+scikit-learn>=1.0.1
+scikit-image>=0.18.3
+
+# Deep Learning Frameworks
+# TensorFlow for Autoencoder implementation
+tensorflow>=2.8.0
+tensorflow-keras>=2.8.0
+
+# PyTorch ecosystem for PatchCore
+torch>=1.10.0
+torchvision>=0.11.1
+torchaudio>=0.10.0
+
+# FAISS for efficient similarity search (PatchCore)
+faiss-cpu>=1.7.0
+# faiss-gpu>=1.7.0  # Uncomment for GPU acceleration
+
+# Image Processing and Computer Vision
+opencv-python>=4.5.0
+imageio>=2.9.0
+tifffile>=2021.7.30
+
+# Data Augmentation (DRAEM)
+imgaug>=0.4.0
+
+# Evaluation and Metrics
+tabulate>=0.8.7
+
+# Utilities and Progress Bars
+tqdm>=4.62.3
+click>=8.0.3
+
+# Jupyter Notebook Support
+jupyter>=1.0.0
+ipykernel>=6.0.0
+ipywidgets>=7.6.0
+
+# Pretrained Models
+pretrainedmodels>=0.7.4
+
+# Visualization and Plotting
+seaborn>=0.11.0
+
+# Development and Testing
+pytest>=6.0.0
+black>=21.0.0
+flake8>=3.9.0
+
+# Optional: Weights & Biases for experiment tracking
+# wandb>=0.12.0
+
+# Optional: Anomalib framework integration
+# anomalib>=0.4.0
+
+# System and IO
+packaging>=20.0
